@@ -3,6 +3,12 @@ body{
    text-align: center;
    font-family: 'Merriweather', serif;
 }
+hr {
+    border:dotted  #bdc0c0 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
 .top_container{
     background-color:#BFFFF0 ;
     margin-top: 0px;
@@ -13,14 +19,22 @@ body{
 }
  h1{
      margin: 0 auto ;
-     width: 20%;
+     margin: 50px auto 0 auto;
+     ;
      font-family: 'Sacramento', cursive;
+     font-size: 562.5%;
+     color: #66BFBF;
+     
  }
  h2{
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
  }
  h3{
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
  }
  
  .pro{
@@ -42,19 +56,18 @@ body{
      border-style: hidden;
      border-radius: 90px;
  }
- .Grapic{
+ .Graphic{
      border-style: hidden;
      border-radius: 57px;
- }
- .middle_container{
-     background-color: #F0FFC2;
- }
+     width:25%;
+     float: left;
+     margin-right: 30px;
+ } 
  .contact-me{
-background-color: #FFE4C0;
 padding: 30px;
  }
  .bottom_container{
-     background-color: #FFBBBB;
+     background-color:#66BFBF ;
      padding: 30px;
  }
  .nav{
@@ -91,11 +104,14 @@ padding: 30px;
 .webdev{
     border-style: hidden;
     border-radius: 233px;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 
 }
 .youtube{
     background-color: green;
-    color:white ;
+    color:#11999E ;
     margin-left: 10px;
     margin-right: 10px;
     border-style: hidden;
@@ -105,12 +121,41 @@ padding: 30px;
 }
 .mail{
     background-color: rgb(50, 142, 228);
-    color: white;border-style: hidden;
-    border-radius: 20px;
+    color: #11999E;border-style: hidden;
+    border-radius: 8px;
     width:150px;
     height:30px;
     
-}
+        background: #11cdd4;
+        background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+        background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        height: 75px;
+        width: 400px;
+        margin: 50px;
+      }
+      
+      .btn:hover {
+        background: #30e3cb;
+        background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+        text-decoration: none;
+      }
+
+
 .insta{
     background-color: yellow;
     color:grey;border-style: hidden;
@@ -123,6 +168,10 @@ padding: 30px;
 }
 .footer-link{
     text-decoration: none;
+    color: #11999E;
+    margin: 40px 10px 40px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
 }
 .linkedin{
     border-style: hidden;
@@ -151,4 +200,25 @@ padding: 30px;
 }
 .white{
     background-color: white;
+}
+.skill ,.skill-row{
+    width: 50%;
+    margin: 100px auto; 
+    text-align: left;
+    line-height: 2;
+}
+.footer-ending{
+    color: #EAF6F6;
+    margin: 40px 10px 30px 10px;
+}
+hr{
+    text-decoration: double;
+}
+.middle_container{
+    margin: 100px 0 100px 0;
+}
+.myintro{
+    margin-bottom: 30px;
+    width: 30%;
+    margin: auto;
 }
