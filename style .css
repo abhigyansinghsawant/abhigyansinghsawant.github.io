@@ -42,16 +42,113 @@ body{
      border-style: hidden;
      border-radius: 90px;
  }
- .skillimg{
+ .Grapic{
      border-style: hidden;
-     border-radius: 233px;
+     border-radius: 57px;
  }
  .middle_container{
      background-color: #F0FFC2;
  }
  .contact-me{
 background-color: #FFE4C0;
+padding: 30px;
  }
  .bottom_container{
      background-color: #FFBBBB;
+     padding: 30px;
  }
+ .nav{
+    position:fixed;
+    height:40px;
+    top:0px;
+    width:100%;
+    background-color:#009DAE;
+    text-align: left;
+    overflow: hidden;
+    font-family: cursive;
+}
+.nav a{
+    float:left;
+    color:#C2FFF9;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size:17px;
+
+}
+.nav a:hover {
+    background-color: #FFE652;
+    color: #009DAE;
+}
+#login{
+    float: right;
+}
+.first{
+    width: 100%;
+    height:100%;
+    background-color: rgb(22, 189, 175);
+}
+.webdev{
+    border-style: hidden;
+    border-radius: 233px;
+
+}
+.youtube{
+    background-color: green;
+    color:white ;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: hidden;
+    border-radius: 20px;
+    width:150px;
+    height:30px;
+}
+.mail{
+    background-color: rgb(50, 142, 228);
+    color: white;border-style: hidden;
+    border-radius: 20px;
+    width:150px;
+    height:30px;
+    
+}
+.insta{
+    background-color: yellow;
+    color:grey;border-style: hidden;
+    border-radius: 20px;
+    width:150px;
+    height:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.footer-link{
+    text-decoration: none;
+}
+.linkedin{
+    border-style: hidden;
+    border-radius: 20px;
+    width:150px;
+    height:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.twitter{
+    border-radius: 20px;
+    width:150px;
+    height:30px;
+    border-style: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.app{
+    border-radius: 20px;
+    width:150px;
+    height:30px;border-style: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.white{
+    background-color: white;
+}
