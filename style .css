@@ -1,0 +1,57 @@
+body{
+   margin: 0px;
+   text-align: center;
+   font-family: 'Merriweather', serif;
+}
+.top_container{
+    background-color:#BFFFF0 ;
+    margin-top: 0px;
+     margin-left: 0px;
+     margin-right: 0px;
+     padding-top:100px;
+     position: relative;
+}
+ h1{
+     margin: 0 auto ;
+     width: 20%;
+     font-family: 'Sacramento', cursive;
+ }
+ h2{
+    font-family: 'Montserrat', sans-serif;
+ }
+ h3{
+    font-family: 'Montserrat', sans-serif;
+ }
+ 
+ .pro{
+     text-decoration: underline;
+ }
+ .bottom_cloud{
+     position: absolute;
+     left: 300px;
+     bottom: 300px;
+
+ }
+ .top_cloud{
+     position: absolute;
+     right: 300px;
+     top: 50px;
+ }
+ .my-photo{
+     padding: 10px;
+     border-style: hidden;
+     border-radius: 90px;
+ }
+ .skillimg{
+     border-style: hidden;
+     border-radius: 233px;
+ }
+ .middle_container{
+     background-color: #F0FFC2;
+ }
+ .contact-me{
+background-color: #FFE4C0;
+ }
+ .bottom_container{
+     background-color: #FFBBBB;
+ }
